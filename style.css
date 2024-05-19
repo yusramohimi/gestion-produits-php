@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: 'roboto';
+  }
+  header{
+      display: flex;
+      justify-content: space-between;
+      background-color: #FFCDEA;
+      align-items: center;
+      padding: 30px;
+  }
+  header h1{
+      
+      font-family: 'roboto';
+      font-weight: bold;
+      background: -webkit-linear-gradient(#FB9AD1, #BC7FCD , #86469C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+           
+    .container{
+      box-shadow: 0 0 20px #BC7FCD;
+      background-color: #FFCDEA;
+      width: 50vw;
+      padding:40px;
+      margin-top: 100px;
+  
+    }
+    .form-title{
+      color:#6a3093;
+      text-align: center;
+    }
+    .container form label{
+      font-weight: bold;
+      color: #BC7FCD;
+    }
+    .container form input , .container form select{
+      width: 100%;
+      padding: 3px;
+     
+    }
+    .input-section{
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+    .input-section input[type="file"]{
+      color: #6a3093;
+      font-weight: 500;
+      
+    }
+    .btn-section{
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    #add{
+      background-color: #6a3093;
+      color: white;
+      font-weight: bold;
+      padding: 5px 20px;
+      border-radius: 10px;
+      border: 2px solid #86469C;
+      box-shadow: 5px 5px 5px#BC7FCD;
+    }
+    #save{
+      background-color: #a044ff;
+      color: white;
+      font-weight: bold;
+      padding: 5px 20px;
+      border-radius: 10px;
+      border: 2px solid #a044ff;
+      box-shadow: 5px 5px 5px#BC7FCD;
+    }
+    #add:hover , #save:hover{
+      background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+    }
+  
+    .panier-container{
+      margin: 40px 10px 0;
+    }
+    .panier-title{
+     font-weight: bold;
+      background: -webkit-linear-gradient(#FB9AD1, #BC7FCD , #86469C);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+    #achats-table{
+      margin-top: 20px;
+    }
+  
+    .table-head-row th{
+      background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+      color: white;
+      font-weight: bold;
+      text-align: center;
+  
+    }
+  
+    .actions-btn{
+      display: flex;
+      justify-content: space-around;
+    }
+    .actions-btn button{
+      background-color:#FFCDEA;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #FFCDEA;
+      box-shadow: 2px 2px 2px #BC7FCD;
+    }
+    .actions-btn button:hover{
+      cursor: pointer;
+      background-color:#f2acd5;
+      border: 1px solid #f2acd5;
+    }
+  
+  .zone-prix h5{
+    background-image: linear-gradient(to right, #6a3093 0%, #a044ff  51%, #6a3093  100%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
